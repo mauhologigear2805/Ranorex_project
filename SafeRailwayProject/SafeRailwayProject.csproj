@@ -276,6 +276,9 @@
     <Folder Include="Actions\Login\Validation">
       <id>e5e55fa7-9236-4636-818e-1126c40e9fde</id>
     </Folder>
+    <Folder Include="Modules">
+      <id>afd9ef65-521d-4a59-bf14-b6528bab01e0</id>
+    </Folder>
     <Folder Include="Repository">
       <id>bb0f088d-6e5b-4ac5-9f60-0ecd979e9430</id>
     </Folder>

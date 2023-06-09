@@ -22,6 +22,35 @@ rxversion="10.7">
 			<modulegroupdef
 			id="642df0f5-9952-4997-b4ff-68093939573b"
 			name="LoginAccount">
+				<groupvariables>
+					<groupvariable
+					id="3697d887-5843-48e0-a1b5-2f79f8a79dd4"
+					name="varUseName">
+						<modulevariable
+						moduleref="ccceaeb4-90aa-450b-bae4-bd854901f9e5"
+						name="varUseName"
+						variableref="cc9ecb71-846b-4cd4-9dc5-63d359d31079">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="20f20cdb-712f-46e5-8b81-dbe7c52aa70b"
+					name="varPassWord">
+						<modulevariable
+						moduleref="ccceaeb4-90aa-450b-bae4-bd854901f9e5"
+						name="varPassWord"
+						variableref="31d8affc-79d2-427e-8f2a-bd9e0c8b6bea">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="dc5141c2-9f97-4016-a900-bd09e71800cf"
+					name="varTabName">
+						<modulevariable
+						moduleref="212eff84-3a01-4a74-9781-8a4357801ae6"
+						name="varTabName"
+						variableref="4de1d9de-7226-4c6a-bb2b-71abcd31ca43">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
 			</modulegroupdef>
 			<testmodule
 			id="ccceaeb4-90aa-450b-bae4-bd854901f9e5"
