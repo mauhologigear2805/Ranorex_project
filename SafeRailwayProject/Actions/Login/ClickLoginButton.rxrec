@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="65489e9a-7a3d-4508-b28d-cd840ffdf9eb"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ClickLoginButton"
+	namespace="SafeRailwayProject.Actions.Login">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="27;19"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="67a2d620-1004-4792-b1eb-050ee0022c86"
+		sx="83"
+		sy="539"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4a19c203-8cac-45b3-82d8-5137d2cfeb78"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="56,520,64,34"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						login
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Login
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						submit
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						login
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='railwaysg2.somee.com']//div[#'content']/form[@action='http://railwaysg2.somee.com/Account/Login.cshtml']//input[@title='Login']
+				</path>
+				<robustPath>
+					/dom[@domain='railwaysg2.somee.com']//div[#'content']//input[@title='Login']
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="be57910c-3077-4e30-9c0b-6f50896fb450">
+				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
+SDqRRRQADkZoHSiigBcUUUUAf//Z
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="5f0fffd4-c1ae-4624-9f89-bcc0e838d763"
+	name="SafeRailwayProjectRepository"
+	relativepath="..\..\Repository\SafeRailwayProjectRepository.rxrep">
+		<codegen
+		classname="SafeRailwayProjectRepository"
+		namespace="SafeRailwayProject.Repository">
+		</codegen>
+		<rootfolder
+		id="147f1f59-7840-4cb6-8ec5-6e759971d657"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ClickLoginButton.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

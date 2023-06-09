@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c57ac0d1-7dd3-47c5-9dfb-273985f20fe1"
+mode="Global">
+	<description>
+		The ClickTab recording.
+	</description>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ClickTab"
+	namespace="SafeRailwayProject.Actions.General">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="16;3"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d7369ee8-81c2-4b11-9139-8e63fd62c015"
+		sx="708"
+		sy="436"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="231eea74-33ab-4926-a450-b95e238156ef"
+			sourcename="Recorder">
+				<path>
+					/dom[@domain='railwaysg2.somee.com']//div[#'menu']/ul//span[@innertext=$sTabName]
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="5f0fffd4-c1ae-4624-9f89-bcc0e838d763"
+	name="SafeRailwayProjectRepository"
+	relativepath="..\..\Repository\SafeRailwayProjectRepository.rxrep">
+		<codegen
+		classname="SafeRailwayProjectRepository"
+		namespace="SafeRailwayProject.Repository">
+		</codegen>
+		<rootfolder
+		id="147f1f59-7840-4cb6-8ec5-6e759971d657"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ClickTab.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

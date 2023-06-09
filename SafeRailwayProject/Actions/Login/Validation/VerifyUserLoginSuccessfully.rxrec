@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="990af605-efaf-4fce-b153-b28c2999da9c"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VerifyUserLoginSuccessfully"
+	namespace="SafeRailwayProject.Actions.Login.Validation">
+	</codegen>
+	<variables>
+		<var
+		id="2b2a12f9-7fa5-4a3f-9ce2-ca9922194bb2"
+		name="varUserName">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="VerifyUserLoginSuccessfully"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="Validate_LblWelcome"
+		namespace="SafeRailwayProject.Actions.Login.Validation"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="af8a06be-46ef-4358-949b-1dd27a7f1279">
+				<argument
+				argname="strongtagInfo"
+				id="904ccad3-5c6e-42d1-8c63-16058fcd2937">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="3578dfb1-122e-4c9a-afef-bfb0b924a0d2"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/dom[@domain='railwaysg2.somee.com']//div[#'banner']/?/?/strong[@innertext&gt;'']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="5f0fffd4-c1ae-4624-9f89-bcc0e838d763"
+	name="SafeRailwayProjectRepository"
+	relativepath="..\..\..\Repository\SafeRailwayProjectRepository.rxrep">
+		<codegen
+		classname="SafeRailwayProjectRepository"
+		namespace="SafeRailwayProject.Repository">
+		</codegen>
+		<rootfolder
+		id="147f1f59-7840-4cb6-8ec5-6e759971d657"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		VerifyUserLoginSuccessfully.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

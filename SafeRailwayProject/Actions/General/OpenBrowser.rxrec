@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0ae52f9a-560c-4777-aea3-ed9902107099"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="SafeRailwayProject.Actions.General">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				http://railwaysg2.somee.com/Page/HomePage.cshtml
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="5f0fffd4-c1ae-4624-9f89-bcc0e838d763"
+	name="SafeRailwayProjectRepository"
+	relativepath="..\..\Repository\SafeRailwayProjectRepository.rxrep">
+		<codegen
+		classname="SafeRailwayProjectRepository"
+		namespace="SafeRailwayProject.Repository">
+		</codegen>
+		<rootfolder
+		id="147f1f59-7840-4cb6-8ec5-6e759971d657"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
