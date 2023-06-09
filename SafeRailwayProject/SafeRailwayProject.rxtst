@@ -112,6 +112,9 @@
 			name="ClickTab"
 			ref="c57ac0d1-7dd3-47c5-9dfb-273985f20fe1"
 			type="Recording">
+				<description>
+					<![CDATA[Log out page]]>
+				</description>
 				<databinding>
 					<var
 					dataname="TabLogout"
