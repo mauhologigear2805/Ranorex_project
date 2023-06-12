@@ -1,0 +1,12 @@
+C:\Users\mau.ho\Desktop\Ranorex\Ranorex_project\SafeRailwayProject\bin\Debug\SafeRailwayProject.rxtmg
+C:\Users\mau.ho\Desktop\Ranorex\Ranorex_project\SafeRailwayProject\bin\Debug\SafeRailwayProject.rxtst
+C:\Users\mau.ho\Desktop\Ranorex\Ranorex_project\SafeRailwayProject\bin\Debug\SafeRailwayProject.exe.config
+C:\Users\mau.ho\Desktop\Ranorex\Ranorex_project\SafeRailwayProject\bin\Debug\SafeRailwayProject.xml
+C:\Users\mau.ho\Desktop\Ranorex\Ranorex_project\SafeRailwayProject\bin\Debug\SafeRailwayProject.exe
+C:\Users\mau.ho\Desktop\Ranorex\Ranorex_project\SafeRailwayProject\bin\Debug\SafeRailwayProject.pdb
+C:\Users\mau.ho\Desktop\Ranorex\Ranorex_project\SafeRailwayProject\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\mau.ho\Desktop\Ranorex\Ranorex_project\SafeRailwayProject\obj\x86\Debug\SafeRailwayProject.csproj.AssemblyReference.cache
+C:\Users\mau.ho\Desktop\Ranorex\Ranorex_project\SafeRailwayProject\obj\x86\Debug\SafeRailwayProject.csproj.CoreCompileInputs.cache
+C:\Users\mau.ho\Desktop\Ranorex\Ranorex_project\SafeRailwayProject\obj\x86\Debug\SafeRailwayProject.csproj.CopyComplete
+C:\Users\mau.ho\Desktop\Ranorex\Ranorex_project\SafeRailwayProject\obj\x86\Debug\SafeRailwayProject.exe
+C:\Users\mau.ho\Desktop\Ranorex\Ranorex_project\SafeRailwayProject\obj\x86\Debug\SafeRailwayProject.pdb
