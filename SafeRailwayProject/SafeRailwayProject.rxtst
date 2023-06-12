@@ -37,11 +37,6 @@
 					name="TabLogout"
 					value="Log out">
 					</param>
-					<param
-					mask="False"
-					name="NewParameter"
-					value="">
-					</param>
 				</parameters>
 			</testcase>
 			<testmodule
@@ -65,8 +60,45 @@
 			id="0e2135e8-cba4-414d-ac51-559f40492160"
 			name="LoginTest">
 			</smartfoldernode>
+			<modulegroup
+			id="1ab03c67-427f-4412-9f84-3b24f7f030ff"
+			name="LoginAccount"
+			ref="642df0f5-9952-4997-b4ff-68093939573b">
+				<description>
+					<![CDATA[2. Click on "Login" tab
+3. Enter valid Email and Password
+4. Click on "Login" button]]>
+				</description>
+				<databinding>
+					<var
+					dataname="Usename"
+					datasourceid="cda87776-e630-4812-8cab-ab89761cc4b3"
+					variableid="3697d887-5843-48e0-a1b5-2f79f8a79dd4"
+					variablename="varUseName">
+					</var>
+					<var
+					dataname="Password"
+					datasourceid="cda87776-e630-4812-8cab-ab89761cc4b3"
+					variableid="20f20cdb-712f-46e5-8b81-dbe7c52aa70b"
+					variablename="varPassWord">
+					</var>
+					<var
+					dataname="Tab Login"
+					datasourceid="cda87776-e630-4812-8cab-ab89761cc4b3"
+					variableid="dc5141c2-9f97-4016-a900-bd09e71800cf"
+					variablename="varTabName">
+					</var>
+				</databinding>
+			</modulegroup>
 			<setup
 			id="342f46d8-b937-4b13-9c94-05e2a63c5fd8"
+			name="setup">
+				<description>
+					<![CDATA[1. Navigate to QA Railway Website]]>
+				</description>
+			</setup>
+			<setup
+			id="365f4014-f354-435a-9ef9-cabe9a0f1606"
 			name="setup">
 				<description>
 					<![CDATA[1. Navigate to QA Railway Website]]>
@@ -77,29 +109,10 @@
 			name="teardown">
 			</teardown>
 			<testmodule
-			id="5f4d8bfd-910c-479f-bc72-e89ce0fd43d2"
-			name="ClickTab"
-			ref="c57ac0d1-7dd3-47c5-9dfb-273985f20fe1"
+			id="71b75298-08ca-49eb-ad56-802e1127617a"
+			name="CloseBrowser"
+			ref="1354896d-a37c-44d9-8723-90d4996380f7"
 			type="Recording">
-				<description>
-					<![CDATA[2. Click on "Login" tab]]>
-				</description>
-				<databinding>
-					<var
-					dataname="TabLogin"
-					datasourceid="04216510-e50a-4828-9836-84e5c465dead"
-					variableid="4de1d9de-7226-4c6a-bb2b-71abcd31ca43"
-					variablename="varTabName">
-					</var>
-				</databinding>
-				<missingdatavariablesbinding>
-					<var
-					dataname="Tab"
-					datasourceid="04216510-e50a-4828-9836-84e5c465dead"
-					variableid="3fad185c-64e4-4cab-9df8-4e0e6aed327f"
-					variablename="TabName">
-					</var>
-				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
 			id="7b8f529a-a7d5-49ba-92ec-d546e93b6d1a"
@@ -123,15 +136,6 @@
 					variablename="varTabName">
 					</var>
 				</databinding>
-			</testmodule>
-			<testmodule
-			id="8e1fcc06-132d-4d75-8c38-927adccefb1e"
-			name="ClickLoginButton"
-			ref="65489e9a-7a3d-4508-b28d-cd840ffdf9eb"
-			type="Recording">
-				<description>
-					<![CDATA[4. Click on "Login" button]]>
-				</description>
 			</testmodule>
 			<testsuite
 			ExportColumnList="None"
@@ -164,29 +168,6 @@
 			reportwriteinterval="30000ms"
 			singlereportpdfdirectory="SingleReportPDF">
 			</testsuite>
-			<testmodule
-			id="a81771c6-ce4b-4236-894e-76cac048a3c3"
-			name="EnterEmailAndPassword"
-			ref="89286640-ff73-44db-96d0-d219a1465dff"
-			type="Recording">
-				<description>
-					<![CDATA[3. Enter valid Email and Password]]>
-				</description>
-				<databinding>
-					<var
-					dataname="Username"
-					datasourceid="04216510-e50a-4828-9836-84e5c465dead"
-					variableid="cc9ecb71-846b-4cd4-9dc5-63d359d31079"
-					variablename="varUseName">
-					</var>
-					<var
-					dataname="Password"
-					datasourceid="04216510-e50a-4828-9836-84e5c465dead"
-					variableid="31d8affc-79d2-427e-8f2a-bd9e0c8b6bea"
-					variablename="varPassWord">
-					</var>
-				</databinding>
-			</testmodule>
 			<testcase
 			id="b6973bf7-508c-4464-ba55-8474188ffb71"
 			name="SafeRailwayProject"
@@ -199,10 +180,110 @@
 					<param
 					mask="False"
 					name="Usename"
-					value="">
+					value="ho123@gmail.com">
+					</param>
+					<param
+					mask="False"
+					name="Password"
+					value="12345679">
+					</param>
+					<param
+					mask="False"
+					name="Tab Login"
+					value="Login">
+					</param>
+					<param
+					mask="False"
+					name="Tab Logout"
+					value="Log out">
 					</param>
 				</parameters>
 			</testcase>
+			<testmodule
+			id="d942888b-4ef7-40fe-a991-4663f3dbf5ab"
+			name="OpenBrowser"
+			ref="0ae52f9a-560c-4777-aea3-ed9902107099"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="e36c0a2f-08e5-43ac-97ec-694e0b88d37e"
+			name="ClickTab"
+			ref="c57ac0d1-7dd3-47c5-9dfb-273985f20fe1"
+			type="Recording">
+				<description>
+					<![CDATA[Log out page]]>
+				</description>
+				<databinding>
+					<var
+					dataname="Tab Logout"
+					datasourceid="cda87776-e630-4812-8cab-ab89761cc4b3"
+					variableid="4de1d9de-7226-4c6a-bb2b-71abcd31ca43"
+					variablename="varTabName">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="TabLogout"
+					datasourceid="04216510-e50a-4828-9836-84e5c465dead"
+					variableid="4de1d9de-7226-4c6a-bb2b-71abcd31ca43"
+					variablename="varTabName">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<modulegroup
+			id="e6f1d8c7-fa03-4897-ae53-119b2ae657c9"
+			name="LoginAccount"
+			ref="642df0f5-9952-4997-b4ff-68093939573b">
+				<description>
+					<![CDATA[2. Click on "Login" tab
+3. Enter valid Email and Password
+4. Click on "Login" button]]>
+				</description>
+				<databinding>
+					<var
+					dataname="TabLogin"
+					datasourceid="04216510-e50a-4828-9836-84e5c465dead"
+					variableid="dc5141c2-9f97-4016-a900-bd09e71800cf"
+					variablename="varTabName">
+					</var>
+					<var
+					dataname="Username"
+					datasourceid="04216510-e50a-4828-9836-84e5c465dead"
+					variableid="3697d887-5843-48e0-a1b5-2f79f8a79dd4"
+					variablename="varUseName">
+					</var>
+					<var
+					dataname="Password"
+					datasourceid="04216510-e50a-4828-9836-84e5c465dead"
+					variableid="20f20cdb-712f-46e5-8b81-dbe7c52aa70b"
+					variablename="varPassWord">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Usename"
+					datasourceid="cda87776-e630-4812-8cab-ab89761cc4b3"
+					variableid="3697d887-5843-48e0-a1b5-2f79f8a79dd4"
+					variablename="varUseName">
+					</var>
+					<var
+					dataname="Password"
+					datasourceid="cda87776-e630-4812-8cab-ab89761cc4b3"
+					variableid="20f20cdb-712f-46e5-8b81-dbe7c52aa70b"
+					variablename="varPassWord">
+					</var>
+					<var
+					dataname="Tab Login"
+					datasourceid="cda87776-e630-4812-8cab-ab89761cc4b3"
+					variableid="dc5141c2-9f97-4016-a900-bd09e71800cf"
+					variablename="varTabName">
+					</var>
+				</missingdatabinding>
+			</modulegroup>
+			<teardown
+			id="f20fe0ab-9be2-4657-af4e-5979b2433a3c"
+			name="teardown">
+			</teardown>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -225,18 +306,10 @@
 								name="OpenBrowser">
 								</testmodule>
 							</setup>
-							<testmodule
-							id="5f4d8bfd-910c-479f-bc72-e89ce0fd43d2"
-							name="ClickTab">
-							</testmodule>
-							<testmodule
-							id="a81771c6-ce4b-4236-894e-76cac048a3c3"
-							name="EnterEmailAndPassword">
-							</testmodule>
-							<testmodule
-							id="8e1fcc06-132d-4d75-8c38-927adccefb1e"
-							name="ClickLoginButton">
-							</testmodule>
+							<modulegroup
+							id="e6f1d8c7-fa03-4897-ae53-119b2ae657c9"
+							name="LoginAccount">
+							</modulegroup>
 							<testmodule
 							id="0c6150fd-4791-43dc-8683-99fb8509162f"
 							name="VerifyUserLoginSuccessfully">
@@ -257,6 +330,30 @@
 						<testcase
 						id="cda87776-e630-4812-8cab-ab89761cc4b3"
 						name="TC002">
+							<setup
+							id="365f4014-f354-435a-9ef9-cabe9a0f1606"
+							name="setup">
+								<testmodule
+								id="d942888b-4ef7-40fe-a991-4663f3dbf5ab"
+								name="OpenBrowser">
+								</testmodule>
+							</setup>
+							<modulegroup
+							id="1ab03c67-427f-4412-9f84-3b24f7f030ff"
+							name="LoginAccount">
+							</modulegroup>
+							<teardown
+							id="f20fe0ab-9be2-4657-af4e-5979b2433a3c"
+							name="teardown">
+								<testmodule
+								id="e36c0a2f-08e5-43ac-97ec-694e0b88d37e"
+								name="ClickTab">
+								</testmodule>
+								<testmodule
+								id="71b75298-08ca-49eb-ad56-802e1127617a"
+								name="CloseBrowser">
+								</testmodule>
+							</teardown>
 						</testcase>
 					</smartfoldernode>
 				</testcase>
