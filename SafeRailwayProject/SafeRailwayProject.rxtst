@@ -101,11 +101,6 @@
 					</var>
 				</missingdatavariablesbinding>
 			</testmodule>
-			<modulegroup
-			id="74c2cec1-44d6-4f70-b8ec-1a72c4e840c7"
-			name="LoginAccount"
-			ref="642df0f5-9952-4997-b4ff-68093939573b">
-			</modulegroup>
 			<testmodule
 			id="7b8f529a-a7d5-49ba-92ec-d546e93b6d1a"
 			name="CloseBrowser"
@@ -192,11 +187,6 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<modulegroup
-			id="addbbfc1-6264-415c-bed8-739c6bc65c5b"
-			name="LoginAccount"
-			ref="642df0f5-9952-4997-b4ff-68093939573b">
-			</modulegroup>
 			<testcase
 			id="b6973bf7-508c-4464-ba55-8474188ffb71"
 			name="SafeRailwayProject"
@@ -239,10 +229,6 @@
 							id="5f4d8bfd-910c-479f-bc72-e89ce0fd43d2"
 							name="ClickTab">
 							</testmodule>
-							<modulegroup
-							id="74c2cec1-44d6-4f70-b8ec-1a72c4e840c7"
-							name="LoginAccount">
-							</modulegroup>
 							<testmodule
 							id="a81771c6-ce4b-4236-894e-76cac048a3c3"
 							name="EnterEmailAndPassword">
@@ -271,10 +257,6 @@
 						<testcase
 						id="cda87776-e630-4812-8cab-ab89761cc4b3"
 						name="TC002">
-							<modulegroup
-							id="addbbfc1-6264-415c-bed8-739c6bc65c5b"
-							name="LoginAccount">
-							</modulegroup>
 						</testcase>
 					</smartfoldernode>
 				</testcase>
