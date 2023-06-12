@@ -1,0 +1,436 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SafeRailwayProject</name>
+    </assembly>
+    <members>
+        <member name="T:SafeRailwayProject.Actions.General.ClickTab">
+             <summary>
+            The ClickTab recording.
+             </summary>
+        </member>
+        <member name="F:SafeRailwayProject.Actions.General.ClickTab.repo">
+            <summary>
+            Holds an instance of the global::SafeRailwayProject.Repository.SafeRailwayProjectRepository repository.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.General.ClickTab.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Actions.General.ClickTab.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Actions.General.ClickTab.varTabName">
+            <summary>
+            Gets or sets the value of variable varTabName.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.General.ClickTab.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SafeRailwayProject.Actions.General.ClickTab.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.General.ClickTab.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.General.ClickTab.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SafeRailwayProject.Actions.General.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:SafeRailwayProject.Actions.General.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the global::SafeRailwayProject.Repository.SafeRailwayProjectRepository repository.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.General.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Actions.General.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.General.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SafeRailwayProject.Actions.General.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.General.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.General.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SafeRailwayProject.Actions.General.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:SafeRailwayProject.Actions.General.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the global::SafeRailwayProject.Repository.SafeRailwayProjectRepository repository.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.General.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Actions.General.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.General.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SafeRailwayProject.Actions.General.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.General.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.General.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SafeRailwayProject.Actions.Login.ClickLoginButton">
+             <summary>
+            The ClickLoginButton recording.
+             </summary>
+        </member>
+        <member name="F:SafeRailwayProject.Actions.Login.ClickLoginButton.repo">
+            <summary>
+            Holds an instance of the global::SafeRailwayProject.Repository.SafeRailwayProjectRepository repository.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.Login.ClickLoginButton.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Actions.Login.ClickLoginButton.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.Login.ClickLoginButton.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SafeRailwayProject.Actions.Login.ClickLoginButton.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.Login.ClickLoginButton.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.Login.ClickLoginButton.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SafeRailwayProject.Actions.Login.EnterEmailAndPassword">
+             <summary>
+            The EnterEmailAndPassword recording.
+             </summary>
+        </member>
+        <member name="F:SafeRailwayProject.Actions.Login.EnterEmailAndPassword.repo">
+            <summary>
+            Holds an instance of the global::SafeRailwayProject.Repository.SafeRailwayProjectRepository repository.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.Login.EnterEmailAndPassword.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Actions.Login.EnterEmailAndPassword.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Actions.Login.EnterEmailAndPassword.varUseName">
+            <summary>
+            Gets or sets the value of variable varUseName.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Actions.Login.EnterEmailAndPassword.varPassWord">
+            <summary>
+            Gets or sets the value of variable varPassWord.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.Login.EnterEmailAndPassword.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SafeRailwayProject.Actions.Login.EnterEmailAndPassword.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.Login.EnterEmailAndPassword.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.Login.EnterEmailAndPassword.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SafeRailwayProject.Actions.Login.Validation.VerifyUserLoginSuccessfully">
+             <summary>
+            The VerifyUserLoginSuccessfully recording.
+             </summary>
+        </member>
+        <member name="F:SafeRailwayProject.Actions.Login.Validation.VerifyUserLoginSuccessfully.repo">
+            <summary>
+            Holds an instance of the global::SafeRailwayProject.Repository.SafeRailwayProjectRepository repository.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.Login.Validation.VerifyUserLoginSuccessfully.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Actions.Login.Validation.VerifyUserLoginSuccessfully.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Actions.Login.Validation.VerifyUserLoginSuccessfully.varUserName">
+            <summary>
+            Gets or sets the value of variable varUserName.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.Login.Validation.VerifyUserLoginSuccessfully.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SafeRailwayProject.Actions.Login.Validation.VerifyUserLoginSuccessfully.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.Login.Validation.VerifyUserLoginSuccessfully.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SafeRailwayProject.Actions.Login.Validation.VerifyUserLoginSuccessfully.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SafeRailwayProject.Repository.SafeRailwayProjectRepository">
+            <summary>
+            The class representing the SafeRailwayProjectRepository element repository.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the SafeRailwayProjectRepository element repository.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Repository.SafeRailwayProjectRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepository.varUserName">
+            <summary>
+            Gets or sets the value of variable varUserName.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepository.varTabName">
+            <summary>
+            Gets or sets the value of variable varTabName.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepository.SafeRailway">
+            <summary>
+            The SafeRailway folder.
+            </summary>
+        </member>
+        <member name="T:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.SafeRailwayAppFolder">
+            <summary>
+            The SafeRailwayAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.SafeRailwayAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SafeRailway  folder.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.SafeRailwayAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.SafeRailwayAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.SafeRailwayAppFolder.LoginPage">
+            <summary>
+            The LoginPage folder.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.SafeRailwayAppFolder.GeneralPage">
+            <summary>
+            The GeneralPage folder.
+            </summary>
+        </member>
+        <member name="T:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.LoginPageFolder">
+            <summary>
+            The LoginPageFolder folder.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.LoginPageFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginPage  folder.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.LoginPageFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.LoginPageFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.LoginPageFolder.TxtUsername">
+            <summary>
+            The TxtUsername item.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.LoginPageFolder.TxtUsernameInfo">
+            <summary>
+            The TxtUsername item info.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.LoginPageFolder.TxtPassword">
+            <summary>
+            The TxtPassword item.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.LoginPageFolder.TxtPasswordInfo">
+            <summary>
+            The TxtPassword item info.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.LoginPageFolder.BtnLogin">
+            <summary>
+            The BtnLogin item.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.LoginPageFolder.BtnLoginInfo">
+            <summary>
+            The BtnLogin item info.
+            </summary>
+        </member>
+        <member name="T:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.GeneralPageFolder">
+            <summary>
+            The GeneralPageFolder folder.
+            </summary>
+        </member>
+        <member name="M:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.GeneralPageFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new GeneralPage  folder.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.GeneralPageFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.GeneralPageFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.GeneralPageFolder.TabGeneral">
+            <summary>
+            The TabGeneral item.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.GeneralPageFolder.TabGeneralInfo">
+            <summary>
+            The TabGeneral item info.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.GeneralPageFolder.LblWelcome">
+            <summary>
+            The LblWelcome item.
+            </summary>
+        </member>
+        <member name="P:SafeRailwayProject.Repository.SafeRailwayProjectRepositoryFolders.GeneralPageFolder.LblWelcomeInfo">
+            <summary>
+            The LblWelcome item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

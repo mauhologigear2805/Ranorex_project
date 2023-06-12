@@ -47,14 +47,14 @@
 				<description>
 					<![CDATA[VP: User is logged into Railway. Welcome user message is displayed.]]>
 				</description>
-				<missingdatabinding>
+				<databinding>
 					<var
 					dataname="Username"
 					datasourceid="04216510-e50a-4828-9836-84e5c465dead"
 					variableid="2b2a12f9-7fa5-4a3f-9ce2-ca9922194bb2"
 					variablename="varUserName">
 					</var>
-				</missingdatabinding>
+				</databinding>
 			</testmodule>
 			<smartfoldernode
 			id="0e2135e8-cba4-414d-ac51-559f40492160"
@@ -310,6 +310,10 @@
 							id="e6f1d8c7-fa03-4897-ae53-119b2ae657c9"
 							name="LoginAccount">
 							</modulegroup>
+							<testmodule
+							id="0c6150fd-4791-43dc-8683-99fb8509162f"
+							name="VerifyUserLoginSuccessfully">
+							</testmodule>
 							<teardown
 							id="50cccc2e-019d-4206-850e-299221574e7c"
 							name="teardown">
@@ -338,10 +342,6 @@
 							id="1ab03c67-427f-4412-9f84-3b24f7f030ff"
 							name="LoginAccount">
 							</modulegroup>
-							<testmodule
-							id="0c6150fd-4791-43dc-8683-99fb8509162f"
-							name="VerifyUserLoginSuccessfully">
-							</testmodule>
 							<teardown
 							id="f20fe0ab-9be2-4657-af4e-5979b2433a3c"
 							name="teardown">
