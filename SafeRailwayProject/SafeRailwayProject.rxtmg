@@ -67,16 +67,16 @@ rxversion="10.7">
 				id="642df0f5-9952-4997-b4ff-68093939573b"
 				name="LoginAccount">
 					<testmodule
-					id="1048c604-f3cd-49b7-a44b-c5f65abb596a"
-					name="ClickLoginButton">
+					id="212eff84-3a01-4a74-9781-8a4357801ae6"
+					name="ClickTab">
 					</testmodule>
 					<testmodule
 					id="ccceaeb4-90aa-450b-bae4-bd854901f9e5"
 					name="EnterEmailAndPassword">
 					</testmodule>
 					<testmodule
-					id="212eff84-3a01-4a74-9781-8a4357801ae6"
-					name="ClickTab">
+					id="1048c604-f3cd-49b7-a44b-c5f65abb596a"
+					name="ClickLoginButton">
 					</testmodule>
 				</modulegroupdef>
 			</modulegroups>
