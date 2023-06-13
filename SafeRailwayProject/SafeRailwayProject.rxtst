@@ -172,6 +172,13 @@
 			id="b6973bf7-508c-4464-ba55-8474188ffb71"
 			name="SafeRailwayProject"
 			reportlevel="Info;20">
+				<parameters>
+					<param
+					mask="False"
+					name="abc"
+					value="123">
+					</param>
+				</parameters>
 			</testcase>
 			<testcase
 			id="cda87776-e630-4812-8cab-ab89761cc4b3"
