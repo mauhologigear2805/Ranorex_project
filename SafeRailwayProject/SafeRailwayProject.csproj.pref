@@ -1,8 +1,12 @@
 ﻿<Properties>
-  <Array name="active" />
+  <Array name="active">
+    <Element value="SafeRailwayProject.rxtst" />
+  </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="SafeRailwayProject.rxtst" />
   </Array>
-  <Properties name="projectSavedData" />
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
 </Properties>
