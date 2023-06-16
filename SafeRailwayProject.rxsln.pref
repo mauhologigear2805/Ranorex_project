@@ -8,9 +8,14 @@
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <string>{C4383E78-68C4-4AA9-B30E-982634EB6091}</string>
       <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>642df0f5-9952-4997-b4ff-68093939573b</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>3c79f3db-e2d5-4076-9064-191caf946c2b</string>
+      <string>f25d0e45-1051-4370-8cb1-b35dac13cd73</string>
+      <string>7dda53df-f588-4652-9c16-9869814bb203</string>
+      <string>e5e55fa7-9236-4636-818e-1126c40e9fde</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution SafeRailwayProject[SafeRailwayProject[]]]&#xD;&#xA;Solution SafeRailwayProject\SafeRailwayProject\SafeRailwayProject.rxtst&#xD;&#xA;Solution SafeRailwayProject" />
+  <ProjectBrowserState value="[Solution SafeRailwayProject[SafeRailwayProject[Actions[General[]Login[]]]]]&#xD;&#xA;Solution SafeRailwayProject\SafeRailwayProject\SafeRailwayProject.rxtst&#xD;&#xA;Solution SafeRailwayProject\SafeRailwayProject\Actions\General\CloseBrowser.rxrec" />
   <StartupProject value="{C4383E78-68C4-4AA9-B30E-982634EB6091}" />
 </Properties>
